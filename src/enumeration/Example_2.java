@@ -12,7 +12,7 @@ public class Example_2 {
         map.put(3, "C++");
 
         Enumeration<Integer> keys = map.keys();
-        Enumeration elements = map.elements();
+        Enumeration<String> elements = map.elements();
 
         System.out.println("Iteration of key-value pairs: ");
         // Iteration over keys of map
